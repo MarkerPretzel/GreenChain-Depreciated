@@ -4,7 +4,9 @@ description = ''
 authors = []
 telemetry = false
 cache_dir = './.cache'
-requirements = []
+
+[[project.requirements]]
+contract_id = 'SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard'
 [contracts.greenchain]
 path = 'contracts/greenchain.clar'
 clarity_version = 3
